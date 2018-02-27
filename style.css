@@ -1,0 +1,68 @@
+body {
+  background-image: url("27078818-writer-wallpapers.jpg");
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+
+#quoteSquare {
+  background-color: white;
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+}
+
+#quote {
+  font-family: 'Sacramento', cursive, serif;
+  color: gray;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#quoteAuthor {
+  color: gray;
+  text-align: right;
+  margin-right: 100px;
+  font-family: "Arial";
+}
+
+#buttons {
+  margin: 20px 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#newQuote, .twitter, .tumblr {
+  /* display: inline-block; */
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 2px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+#newQuote {
+  font-size: 1.1em;
+  float: right;
+  margin-right: 50px;
+}
+
+.twitter, .tumblr {
+  float: left;
+  height: 20px;
+  width: 35px;
+}
+
+#by {
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  font-family: "Arial";
+  font-size: 0.8em;
+}
