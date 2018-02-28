@@ -5,28 +5,49 @@ body {
   height: auto;
 }
 
+h1 {
+  font-family: "Lora", serif;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: -5px;
+}
+
+h2 {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-size: 0.8em;
+}
+
 #quoteSquare {
   background-color: white;
   margin: auto;
   width: 800px;
-  height: 300px;
+  min-height: 400px;
   border-radius: 3px;
   position: relative;
+  overflow: hidden;
+  margin-top: 90px;
+}
+
+#quoteSquare, #quote, #quoteAuthor, #buttons {
+  display: block;
+}
+
+#quote, #quoteAuthor {
+  font-family: 'Sacramento', cursive;
+  color: gray;
 }
 
 #quote {
-  font-family: 'Sacramento', cursive, serif;
-  color: gray;
-  padding-top: 50px;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
+  margin-top: 40px;
 }
 
 #quoteAuthor {
-  color: gray;
   text-align: right;
   margin-right: 100px;
-  font-family: "Arial";
+  margin-bottom: 100px;
 }
 
 #buttons {
@@ -34,10 +55,10 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  min-height: 40px
 }
 
 #newQuote, .twitter, .tumblr {
-  /* display: inline-block; */
   background-color: gray;
   color: white;
   border: none;
@@ -48,6 +69,7 @@ body {
 }
 
 #newQuote {
+  font-family: 'Great Vibes', cursive;
   font-size: 1.1em;
   float: right;
   margin-right: 50px;
