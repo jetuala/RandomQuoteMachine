@@ -14,10 +14,13 @@ $(document).ready(function(){
   };
 
   var tweetQuote = function(){
-    alert("Twitter button pressed.");
     var textToTweet = $("#quote").text() + "  - " + $("#quoteAuthor").text();
     var tweetLink = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(textToTweet);
     window.open(tweetLink,'_blank');
+  }
+
+  var tumblrQuote = function(){
+    alert("Still working on Tumblr button! :)");
   }
 
   callQuote();
@@ -29,5 +32,9 @@ $(document).ready(function(){
   $("#twitterIcon").on("click", function(){
     tweetQuote();
   });
+
+  $("#tumblrIcon").on("click", function(){
+    tumblrQuote();
+  })
 
 });

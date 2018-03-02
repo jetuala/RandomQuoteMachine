@@ -58,7 +58,7 @@ h2 {
   min-height: 40px
 }
 
-#newQuote, .twitter, .tumblr {
+#newQuote, #twitterIcon, #tumblrIcon {
   background-color: gray;
   color: white;
   border: none;
@@ -75,11 +75,11 @@ h2 {
   margin-right: 50px;
 }
 
-.twitter, .tumblr {
+/* #twitterIcon, .tumblr {
   float: left;
   height: 20px;
   width: 35px;
-}
+} */
 
 #by {
   text-align: center;
